@@ -1,0 +1,117 @@
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1
+$ git init
+Initialized empty Git repository in C:/Users/student/Desktop/WpfApp1/.git/
+
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        App.xaml
+        App.xaml.cs
+        AssemblyInfo.cs
+        MainWindow.xaml
+        MainWindow.xaml.cs
+        README.MD
+        WpfApp1.csproj
+        WpfApp1.csproj.user
+        WpfApp1.sln
+        bin/
+        obj/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1 (master)
+$ git add .gitignore
+
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1 (master)
+$ git add README.MD
+
+bash: it: command not found
+
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        App.xaml
+        App.xaml.cs
+        AssemblyInfo.cs
+        MainWindow.xaml
+        MainWindow.xaml.cs
+        README.MD
+        WpfApp1.csproj
+        WpfApp1.csproj.user
+        WpfApp1.sln
+        bin/
+        obj/
+
+
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1 (master)
+$ git commit -m "I LOVE YOUR MOM"
+[master (root-commit) d63f8ba] I LOVE YOUR MOM
+ 1 file changed, 2 insertions(+)
+ create mode 100644 .gitignore
+
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1 (master)
+$ git add README.MD
+
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1 (master)
+$ git commit -m "I LOVE YOUR MOM"
+[master 4de1d8d] I LOVE YOUR MOM
+ 1 file changed, 21 insertions(+)
+ create mode 100644 README.MD
+
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        App.xaml
+        App.xaml.cs
+        AssemblyInfo.cs
+        MainWindow.xaml
+        MainWindow.xaml.cs
+        WpfApp1.csproj
+        WpfApp1.csproj.user
+        WpfApp1.sln
+        bin/
+        obj/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1 (master)
+$ git remote add origin https://github.com/sergylash/Barbariky.git
+
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1 (master)
+$ git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 1.07 KiB | 1.07 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/sergylash/Barbariky.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1 (master)
+$
+student@B2-411-08 MINGW64 ~/Desktop/WpfApp1 (master)
+
